@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    font-style: Arial,Helvetica,sans-serif;
+}
+
+.nav{
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+
+.nav a:hover{
+    background-color: #5bbfbb;
+    transition-duration: 1.5s;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 37px;
+  padding: 10px 12px;
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  margin-left: 200px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.bt{
+    border-radius: 10px;
+    padding: 11px 25px;
+    background-color: transparent;
+    font-weight: 800;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.bt:hover{
+    background-color: grey;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.post{
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 190%;
+  color: #5bbfbb;
+}
+
+.box1{
+  position: relative;
+}
+
+.first{
+  width: 70%;
+  padding: 30px;
+  border: 5px solid white;
+  margin: 0;
+  margin-left: 14%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+}
+
+/*.hm1{
+  width: 83%;
+  display: block;
+  margin-left: 13%;
+  margin-right: auto;
+  position: relative;
+}
+
+.hm1 img{
+  border-radius: 40px;
+}*/
+
+.hm2 img{
+  width: 60%;
+  display: block;
+  margin-left: 21%;
+  margin-right: auto;
+  position: relative;
+}
+
+.hm2 img{
+  border-radius: 40px;
+}
+
+.btn-continue{
+  border: 2px solid black;
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 45%;
+  border-radius: 20px;
+}
+
+.btn-continue:hover{
+  background-color:  #5bbfbb;
+  transition-duration: 1s;
+}
+
+.footer{
+  background-color:#363639;
+  width: 100%;
+  padding: 20px;
+  border: 0px solid white;
+  margin: 0;
+}
+
+p{
+    text-align: center;
+    color: #b3b3b3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#scrollToTopBtn {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  border-color: black;
+  cursor: pointer;
+  font-size: 16px;
+  width: 70px;
+  height: 70px;
+  margin-left:95%;
+}
+
+#scrollToTopBtn:hover{
+    background-color: #5bbfbb;
+    transition-duration: 1.2s;
+}
